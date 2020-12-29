@@ -140,7 +140,7 @@ pageClass: routes
 
 ### 声优活动及演唱会
 
-<Route author="KTachibanaM" path="/eventernote/actors/:name/:id" example="/eventernote/actors/三森すずこ/2634" :paramsDesc="['声优姓名', '声优 ID']"/>
+<Route author="KTachibanaM" path="/eventernote/actors/:name/:id" example="/eventernote/actors/三森すずこ/2634" :paramsDesc="['声优姓名', '声优 ID']" radar="1" rssbud="1"/>
 
 ## Hanime.tv
 
@@ -331,6 +331,10 @@ pageClass: routes
 ### 最新
 
 <Route author="KenMizz" example="/ssmh" path="/ssmh/" />
+
+### 分类更新
+
+<Route author="Gandum2077" example="/ssmh/category/6" path="/ssmh/category/:cid" :paramsDesc="['分类的id，即对应 URL 中的数字']" />
 
 ## 鼠绘漫画
 
