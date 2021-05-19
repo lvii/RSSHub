@@ -123,6 +123,12 @@ pageClass: routes
 
 :::
 
+## 博客来
+
+### 新书出版
+
+<Route author="CokeMine" example="/bookscomtw/newbooks/books_nbtopm_15" path="/bookscomtw/newbooks/:category" :paramsDesc="['书籍类型 category, 可在对应博客来新书页 URL 中找到']"/>
+
 ## 吹牛部落
 
 ### 栏目
@@ -189,10 +195,6 @@ count 的取值范围为 1-12，为防止请求次数过多，推荐设置为 5 
 ### 用户收藏
 
 <Route author="junbaor" example="/enclavebooks/collection/103702" path="/enclavebooks/collection/:uid" :paramsDesc="['用户ID, 自行抓包寻找']"/>
-
-## 观止（每日一文）
-
-<route name="观止" author="Andiedie" example="/guanzhi" path="/guanzhi"/>
 
 ## 归档
 
